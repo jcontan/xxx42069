@@ -5,11 +5,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    color: white
 }
 
 header {
     background-color: black;
-    color: white;
+    color: #0FFF50;
     padding: 1rem;
     text-align: center;
 }
@@ -32,6 +33,7 @@ article {
 
 article h2 {
     margin-top: 0;
+    color: #0FFF50
 }
 
 .date {
