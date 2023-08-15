@@ -1,54 +1,57 @@
-/* stylesheet.css */
+* {
+  box-sizing: border-box;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+  font-family: Arial;
+  padding: 20px;
+  background: black;
+    color: white;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: black;
+color: white;
+    
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
     padding: 0;
-    background-color: black;
-}
-
-header {
-    background-color: black;
-    color: #0FFF50;
-    padding: 1rem;
-    text-align: center;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 1rem;
-    color: black;
-}
-
-.article {
-    background-color: black;
-    border: 1px solid black;
-    border-radius: 5px;
-    flex: 1;
-    margin: 0.5rem;
-    padding: 1rem;
-}
-
-.article h2 {
-    margin-top: 0;
-    color: #0FFF50
-}
-
-.date {
-    color: white;
-    font-style: italic;
-}
-
-.sidebar {
-    background-color: black;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 1rem;
-    width: 200px;
-}
-
-.about {
-    color: white;
+  }
 }
