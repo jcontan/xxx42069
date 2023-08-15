@@ -1,0 +1,52 @@
+/* stylesheet.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+article {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+.date {
+    color: white;
+    font-style: italic;
+}
+
+.sidebar {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 200px;
+}
+
+.about {
+    color: white;
+}
