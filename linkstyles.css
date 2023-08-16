@@ -1,19 +1,20 @@
- a:link {
-  background-color: black;
-  color: #0FFF50 !important;
+  a {
+  text-decoration: none;
+  color: #ffffff;
+  }
+
+  a:link {
+  color: #0FFF50
   }
 
   a:visited {
-  background-color: black;
-  color: #0FFF50 !important;
+  color: #0FFF50
   }
 
   a:hover {
-  background-color: black;
-  color: purple !important;
+  color: purple
   }
 
   a:active {
-  background-color: black;
-  color: #0FFF50 !important;
+  color: #0FFF50
   }
