@@ -118,7 +118,7 @@ h2 {
     transform: translateX(-100%);
   }
 
-  a:link {
+  a {
   color: #0FFF50;
   }
 
@@ -133,6 +133,4 @@ h2 {
   a:active {
   color: #0FFF50;
   }
-
-text-decoration: none !important;
 
