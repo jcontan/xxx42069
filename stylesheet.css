@@ -24,6 +24,11 @@ h2 {
   font-style: italic;
 }
 
+.author {
+  color: yellow;
+  font-style: italic;
+}
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn { 
