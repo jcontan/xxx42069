@@ -79,7 +79,6 @@ h2 {
   font-family: arial;
   font-size: 20vw;
   font-style: bold;
-  overflow: hidden;
   width: 100%;
   margin: 0px;
 }
@@ -90,9 +89,9 @@ h2 {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   
-  -moz-animation: my-animation 5s linear infinite;
-  -webkit-animation: my-animation 5s linear infinite;
-  animation: my-animation 5s linear infinite;
+  -moz-animation: my-animation 10s linear infinite;
+  -webkit-animation: my-animation 10s linear infinite;
+  animation: my-animation 10s linear infinite;
 }
 
 /* for Firefox */
