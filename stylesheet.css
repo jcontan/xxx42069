@@ -89,9 +89,9 @@ h2 {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   
-  -moz-animation: my-animation 7s linear infinite;
-  -webkit-animation: my-animation 7s linear infinite;
-  animation: my-animation 7s linear infinite;
+  -moz-animation: my-animation 8s linear infinite;
+  -webkit-animation: my-animation 8s linear infinite;
+  animation: my-animation 8s linear infinite;
 }
 
 /* for Firefox */
