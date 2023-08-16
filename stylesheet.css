@@ -19,12 +19,12 @@ h2 {
   background: black;
 }
 
-date {
+.date {
   color: purple;
   font-style: italic;
 }
 
-p.author {
+.author {
   color: black;
   background: #0FFF50;
 }
