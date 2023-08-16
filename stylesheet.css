@@ -19,6 +19,11 @@ h2 {
   background: black;
 }
 
+.date {
+  color: yellow;
+  font-style: italic;
+}
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn { 
