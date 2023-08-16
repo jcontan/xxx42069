@@ -118,3 +118,18 @@ h2 {
     transform: translateX(-100%);
   }
 
+  a:link {
+  color: #0FFF50;
+  }
+
+  a:visited {
+  color: #0FFF50;
+  }
+
+  a:hover {
+  color: purple;
+  }
+
+  a:active {
+  color: #0FFF50;
+  }
