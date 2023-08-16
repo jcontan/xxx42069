@@ -80,6 +80,7 @@ h2 {
   font-size: 20vw;
   font-style: bold;
   overflow: hidden;
+  width: 1000px;
 }
 
 #scroll-text {
