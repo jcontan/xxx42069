@@ -1,16 +1,16 @@
   a:any-link {
-  color: #0FFF50
-  cursor: crosshair;
+  color: #0FFF50;
   }
 
   a:visited {
-  color: #0FFF50
+  color: #0FFF50;
   }
 
   a:hover {
-  color: purple
+  color: purple;
+  cursor: crosshair;
   }
 
   a:active {
-  color: #0FFF50
+  color: #0FFF50;
   }
