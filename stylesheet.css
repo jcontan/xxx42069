@@ -118,23 +118,3 @@ h2 {
     transform: translateX(-100%);
   }
 
-  a:link {
-  text-decoration: none;
-  color: #0FFF50;
-  }
-
-  a:visited {
-  text-decoration: none;
-  color: #0FFF50;
-  }
-
-  a:hover {
-  text-decoration: none;
-  color: purple;
-  }
-
-  a:active {
-  text-decoration: none;
-  color: #0FFF50;
-  }
-
