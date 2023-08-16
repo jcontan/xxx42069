@@ -133,3 +133,6 @@ h2 {
   a:active {
   color: #0FFF50;
   }
+
+text-decoration: none !important;
+
