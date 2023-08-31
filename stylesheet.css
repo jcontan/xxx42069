@@ -25,13 +25,13 @@ h2 {
 }
 
 .author {
-  color: #0FFF50 !important;
-  font-weight: bold !important;
+  color: #0FFF50;
+  font-weight: bold;
 }
 
 .author2 {
-  color: purple !important;
-  font-weight: bold !important;
+  color: purple;
+  font-weight: bold;
 }
 
 /* Create two unequal columns that floats next to each other */
