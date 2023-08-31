@@ -34,16 +34,6 @@ h2 {
   font-weight: bold;
 }
 
-p.author {
-  color: #0FFF50;
-  font-weight: bold;
-}
-
-p.author2 {
-  color: purple;
-  font-weight: bold;
-}
-
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn { 
